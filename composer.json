@@ -1,0 +1,22 @@
+{
+    "name": "anymouse/pxlr",
+    "description": "This is fiunal test",
+    "type": "library",
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "Anymouse\\Pxlr\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rohit",
+            "email": "rp.codelink@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1",
+        "phpmailer/phpmailer": "dev-master"
+    }
+}
