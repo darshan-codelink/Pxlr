@@ -1,8 +1,8 @@
 {
     "name": "anymouse/pxlr",
-    "description": "This is final test",
+    "description": "This is the final test 1",
     "type": "library",
-    "license": "mit",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Anymouse\\Pxlr\\": "src/"
@@ -14,9 +14,17 @@
             "email": "rp.codelink@gmail.com"
         }
     ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
     "scripts": {
-        "pre-install-cmd": "@composer require phpmailer/phpmailer"
+        "pre-install-cmd": [
+            "composer require phpmailer/phpmailer"
+        ]
     },
     "minimum-stability": "dev",
-    "require": {}
+    "prefer-stable": true
 }
